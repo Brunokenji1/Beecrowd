@@ -6,10 +6,10 @@ public class Main {
         Scanner sc = new Scanner(System.in);        
         int x = sc.nextInt();
         int[] y = new int[x];
-        long[] fib = new long[60];  //'long' tipo de dado de 64bits, maior que um valor 'int' que é 32bits
+        long[] fib = new long[70];  //'long' tipo de dado de 64bits, maior que um valor 'int' que é 32bits
         fib[0]=0;
         fib[1]=1;
-        for(int i=2; i<60; i++){
+        for(int i=2; i<70; i++){
             fib[i]=fib[i-1]+fib[i-2];
         }
         for(int i=0; i<x; i++){
